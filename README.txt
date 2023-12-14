@@ -11,6 +11,11 @@ D. Rmove the driver by using exit_rb.sh.
 Number of operations can be changed by changing the variables in main.c file.
 By default kprobe works for rb_insert write function. It can be changed by reversing the value in krobe test function in main file.
 
+https://elixir.bootlin.com/linux/latest/source/include/linux/rbtree.h
+
+https://elixir.bootlin.com/linux/latest/source/include/linux/rbtree_types.h
+
+https://docs.kernel.org/core-api/rbtree.html
 
 Output for 10 writes, 5 reads and 5 kprobe:
 
